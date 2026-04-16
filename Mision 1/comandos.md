@@ -14,10 +14,8 @@
 `env312\scripts\active` Sirve para activar el entorno virtual
 `pip list` Sirve para ver todas las librerias del entorno
 `.gitignore` Archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto
-`` deactivate``
-
-``pip list``
-## Librerrias para python
+` deactivate` Para desactivar el entorno
+## Librerias para python
 `python.exe -m pip install --upgrade pip`
 ``pip install pandas numpy matplotlib``
 pandas -> manejo de datos  `pip install pandas`
