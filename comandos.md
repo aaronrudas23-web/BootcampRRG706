@@ -11,13 +11,15 @@
 `git clone` Siver para clonar la ruta desde github
 `python --version`sirve para revisar si tenemos python instalado y la versión del mismo
 `python -m venv env312` Para crear el entorno virtual de python
-`env312\scripts\active` Sirve para activar el entorno virtual
+`env312\scripts\activate` Sirve para activar el entorno virtual
 `pip list` Sirve para ver todas las librerias del entorno
 `.gitignore` Archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto
 ` deactivate` Para desactivar el entorno
 ## Librerias para python
 `python.exe -m pip install --upgrade pip`
-``pip install pandas numpy matplotlib``
-pandas -> manejo de datos  `pip install pandas`
-numpy -> cálculo matemático `pip install  numpy`
-matplolib ->gráficos `pip install matplotlib`
+`pip install pandas numpy matplotlib`
+`pip install pandas` pandas -> manejo de datos
+`pip install  numpy` numpy -> cálculo matemático
+`pip install matplotlib` matplolib ->gráficos 
+`pip freeze > requeriments.txt` Para conservar las librerias y las versiones.
+`pip install requeriments.txt`
